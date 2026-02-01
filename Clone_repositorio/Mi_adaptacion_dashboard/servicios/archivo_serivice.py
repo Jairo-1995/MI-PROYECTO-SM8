@@ -4,7 +4,7 @@ import os
 class ArchivoService:
 
     @staticmethod
-    def listar_carpetas(ruta): # Listar carpetas en una ruta dada
+    def listar_carpetas(ruta): # cambio ralizado por listar carpetas
         return [f.name for f in os.scandir(ruta) if f.is_dir()]
 
     @staticmethod

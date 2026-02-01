@@ -1,5 +1,5 @@
 # clasificacion por unidades
-# Creacion de la clase MenuUnidades 
+# cambio realizado por clases en modelos 
 class MenuUnidades: 
     def __init__(self):
         self.unidades = {
