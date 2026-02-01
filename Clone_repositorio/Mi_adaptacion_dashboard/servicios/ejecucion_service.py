@@ -2,11 +2,12 @@ import os
 import subprocess
 # Servicio para ejecutar scripts
 # Creacion de la clase EjecucionService
-class EjecucionService:
+
+class EjecucionService: #Herencia de la clase ejecucion service
 
     @staticmethod
     def ejecutar_script(ruta_script):# Ejecutar un script en una nueva terminal
-        try:
+        try: #polimorfismo en el metodo ejecutar script
             if os.name == 'nt':
                 subprocess.Popen(['cmd', '/k', 'python', ruta_script])
             else:

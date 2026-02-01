@@ -1,6 +1,6 @@
 # clasificacion por unidades
 # cambio realizado por clases en modelos 
-class MenuUnidades: 
+class MenuUnidades: # encapsulacion de la clase menu unidades
     def __init__(self):
         self.unidades = {
             '1': 'Unidad 1',

@@ -1,7 +1,8 @@
 import os
 # Servicio para manejar operaciones de archivos
 # Creacion de la clase ArchivoService
-class ArchivoService:
+
+class ArchivoService: #Herencia de la clase archivo service
 
     @staticmethod
     def listar_carpetas(ruta): # cambio ralizado por listar carpetas
